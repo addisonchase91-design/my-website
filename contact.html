@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Addison Chase - Cybersecurity Student">
+  <meta name="keywords" content="contact, cybersecurity, Addison Chase, email">
+  <meta name="author" content="Addison Chase">
+  <title>Contact Me - Addison Chase</title>
+  <style>
+    /* Banner */
+    .banner {
+      text-align: center;
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-bottom: 3px solid #007acc;
+    }
+
+    .banner .logo {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Navigation */
+    nav h3 {
+      text-align: center;
+      background-color: #007acc;
+      padding: 10px;
+      margin: 0;
+    }
+
+    nav h3 a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav h3 a:hover {
+      text-decoration: underline;
+    }
+
+    /* Body */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: black;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: #007acc;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #005f99;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #007acc;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner -->
+  <header>
+    <div class="banner">
+      <img src="C.jpg" alt="Addison Chase Logo" class="logo">
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <h3>
+      <a href="index.html">Home</a> |
+      <a href="resume.html">My Skills</a> |
+      <a href="coursework.html">Coursework</a> |
+      <a href="contact.html">Contact Me</a>
+    </h3>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Contact Me</h1>
+    <p>If you would like to reach out or have questions about my work in cybersecurity, please fill out the form below:</p>
+
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone">
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Comment or Question:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Clear">
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Addison Chase</p>
+  </footer>
+
+</body>
+</html>
